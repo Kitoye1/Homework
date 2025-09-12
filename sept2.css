@@ -1,0 +1,35 @@
+body{
+    background-image: url(pictures/dylan-whoriskey-zDNjMZhQXnM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+form{
+    background:rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    padding: 20px;
+    margin: 100px auto;
+    box-shadow: inset 0px 0px 10px 5px white;
+    
+}
+label{
+    font-size: 20px;
+    color: white;
+}
+input{
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(225, 225, 225, 0.2);
+    border: navajowhite;
+}
+button{
+    border: none;
+    border-radius: 20px;
+    background:rgba(225, 225, 225, 0.2);
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
