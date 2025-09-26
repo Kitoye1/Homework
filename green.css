@@ -1,0 +1,41 @@
+h1{
+    font-weight: 100;
+    text-align: center;
+}
+body{
+    background-color: yellowgreen;
+    
+}
+p{
+    text-align: center;
+}
+
+.first{
+    width: 320px;
+    margin: 40px;
+    text-align: center;
+    position: relative;
+    background-color: red;
+}
+button{
+    padding:10px;
+    background:goldenrod;
+    border: none;
+}
+.second{
+     width: 320px;
+    margin: 40px;
+    text-align: center;
+   /* text-align: center;
+    position: relative;*/
+}
+.third{
+    width: 320px;
+    margin: 40px;
+    text-align: center;
+   /* text-align: center;
+    position: relative; */
+}
+.main{
+    flex-direction: column;
+}
