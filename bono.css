@@ -1,11 +1,4 @@
-h1{
-    font-family:cursive;
-    font-size: 20px;
-    color: white;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-}
+
 body{
     background-image: url(pictures/purple\ background.jpg);
     background-size: cover;
@@ -16,15 +9,20 @@ body{
     margin: 5px;
     font-size: 14px;
 }
+.bono{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
 .first{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    position: fixed;
-    top: 0px;
-    right: 0px;
+  
+   
 }
 .lineone{
      display: flex;
@@ -32,9 +30,9 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    position: fixed;
-    top: 0px;
-    left: 0px;
+    width: fit-content;
+    margin: 0px;
+    
    
 }
 label{
@@ -42,11 +40,15 @@ label{
 
 }
 .main{
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 form{
     width: 300px;
-    margin: 100px auto;
+    margin:0px 15px;
 }
 input[type=text]{
     padding: 10px;
@@ -55,6 +57,7 @@ input[type=text]{
     border: none;
     margin-top: 15px;
     margin-bottom: 15px;
+    box-sizing: border-box;
 }
 input[type=Email]{
     padding: 10px;
@@ -63,6 +66,7 @@ input[type=Email]{
     border: none;
     margin-top: 15px;
     margin-bottom: 15px;
+     box-sizing: border-box;
 }
 input[type=message]{
     padding: 10px;
@@ -72,6 +76,7 @@ input[type=message]{
     border: none;
     margin-top: 15px;
     margin-bottom: 15px;
+     box-sizing: border-box;
 }
 button{
     margin-top: 15px;
@@ -90,8 +95,9 @@ h4{
 }
 .second{
     color: white;
-    width: 350px;
-    margin:100px auto ;
+    width: 30%;
+    margin:0px 15px;
+
 }
   a:active{
     background: blue;
@@ -104,6 +110,5 @@ h4{
   }
   .nav{
     display: flex;
-    justify-content: ;
     align-items: center;
   }

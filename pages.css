@@ -1,0 +1,12 @@
+.nav{
+    background-color: rgb(48, 48, 142);
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    text-align: center;
+
+}

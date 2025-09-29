@@ -9,33 +9,27 @@ body{
 p{
     text-align: center;
 }
-
+.real{
+    padding-left:5%;
+    padding-right: 5%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
 .first{
-    width: 320px;
-    margin: 40px;
+    width: 30%;
     text-align: center;
     position: relative;
-    background-color: red;
+  
 }
-button{
+.know{
     padding:10px;
     background:goldenrod;
     border: none;
 }
-.second{
-     width: 320px;
-    margin: 40px;
-    text-align: center;
-   /* text-align: center;
-    position: relative;*/
-}
-.third{
-    width: 320px;
-    margin: 40px;
-    text-align: center;
-   /* text-align: center;
-    position: relative; */
-}
-.main{
-    flex-direction: column;
+.fas{
+    font-size: 50px;
 }
