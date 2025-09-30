@@ -32,4 +32,28 @@ p{
 }
 .fas{
     font-size: 50px;
+}.nav{
+    background-color: rgb(119, 177, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+    margin: 10px;
+}
+li{
+    list-style-type: none;
+}
+a:hover{
+    background: rgb(128, 101, 101);
+}
+a:active{
+    background: beige;
+}
+a:visited{
+    background: gray;
 }

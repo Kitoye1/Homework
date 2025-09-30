@@ -99,16 +99,28 @@ h4{
     margin:0px 15px;
 
 }
-  a:active{
-    background: blue;
-    color: pink;
-    padding: 10px;
-  }
-  a:hover{
-    color: red;
-    padding: 10px;
-  }
-  .nav{
+.nav{
+    background-color:rgb(179, 69, 29);
     display: flex;
-    align-items: center;
-  }
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+a{
+    color:rgb(30, 29, 29);
+    text-decoration: none;
+    margin: 10px;
+}
+li{
+    list-style-type: none;
+}
+a:hover{
+    background: rgb(128, 101, 101);
+}
+a:active{
+    background: beige;
+}
+a:visited{
+    background: gray;
+}
