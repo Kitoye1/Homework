@@ -9,7 +9,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    margin: 0px;
+    margin: 2;
     
 }
 .first>h1{
@@ -97,7 +97,8 @@ li{
 
 }
 .developer{
-    background-color:rgb(57, 13, 123);
+    background: linear-gradient(70deg, rgb(153, 25, 237), rgb(224, 21, 102));
+    padding-bottom: 90px;
 }
 .profile{
    margin-bottom: -90px;
@@ -113,19 +114,25 @@ li{
     border-radius: 100%;
     border: 10px solid rgb(89, 11, 207);
 }
-.empty{
-    background-color: white;
-    padding: 50px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-
-}
 .middle{
+    padding-top: 100px;
     background: white;
     width: 700px;
     margin: auto;
-    border-radius: 7px;
+    border-radius: 15px;
+    padding-bottom: 40px;
+    animation: changecolor 3s ease 0s infinite alternate;
     
+}
+@keyframes changecolor{
+    50%{
+        background: white;
+        padding: 50px;
+    }
+   /* 100%{
+        background: white;
+        padding: 100px;
+    }*/
 }
 .story{
     text-align: center;
@@ -138,7 +145,7 @@ li{
     color: purple;
     padding-top: 10px;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 2;
 }
 .story>h6{
     font-size: 18px;
@@ -149,21 +156,27 @@ li{
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 0px;
+    margin-top: 2;
 }
 .numbers>li{
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     margin: 10px;
+  
 }
 .logos{
-    font-size: 40px;
+    font-size:30px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-top: 0px;
+    margin-top: 40px;
+}
+.icon{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 50%;
 }
 .button{
     padding-bottom: 40px;
@@ -215,4 +228,28 @@ a:active{
 }
 a:visited{
     background: gray;
+}
+.nav li{
+    background: black;
+    color: wheat;
+    margin: 10px;
+    padding: 5px;
+    height: fit-content;
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+}
+.dropdown{
+    position: relative;
+}
+.nav .dropitem{
+    position: absolute;
+    visibility: hidden;
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 5px;
+}
+.dropdown:hover .dropitem{
+    visibility: visible;
 }
